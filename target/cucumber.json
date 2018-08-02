@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "NewToursLogin",
+        "description": "",
+        "id": "demotourstesting;newtourslogin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5064099733,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "URL opened",
+            "match": {
+              "location": "StepDefinitionTest.url_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92775422,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter username",
+            "match": {
+              "location": "StepDefinitionTest.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61969296,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password",
+            "match": {
+              "location": "StepDefinitionTest.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4006833573,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on login",
+            "match": {
+              "location": "StepDefinitionTest.click_on_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 607544797,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinitionTest.Close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "demotoursTesting",
+    "description": "",
+    "id": "demotourstesting",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Demo.feature"
+  }
+]
